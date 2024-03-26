@@ -9,7 +9,9 @@
 <body>
     <div class="text-center m-5">    
         <h1 class="m-5">This is a Classroom C{{ room }}</h1>
-        <button type="button" class="btn btn-primary p-2">Start Attendance</button>
+        <form action="/classroom/" method="POST">
+            <button type="submit" class="btn btn-primary p-2" formaction="/start">Start Attendance</button>
+        </form>
     </div>
 </body>
 </html>
