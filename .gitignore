@@ -1,3 +1,9 @@
 .venv
-captured_video.mp4
-output_frames4
+.vs
+captured_video_1.mp4
+captured_video_2.mp4
+output_frames_1
+output_frames_2
+Database
+data.csv
+attendance.xlsx

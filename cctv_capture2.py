@@ -12,6 +12,8 @@ capture_duration = 10
 output_file_1 = 'captured_video_1.mp4'
 output_file_2 = 'captured_video_2.mp4'
 
+# cap_1 = cv2.VideoCapture(rtsp_url_1)
+# cap_1 = cv2.VideoCapture(rtsp_url_2)
 cap_1 = cv2.VideoCapture(webcam_index1)
 cap_2 = cv2.VideoCapture(webcam_index2)
 
@@ -117,8 +119,8 @@ if __name__ == "__main__":
     video_path_2 = output_file_2 
 
     # Specify the output folder for the captured frames
-    output_folder_1 = "output_frames4_1"
-    output_folder_2 = "output_frames4_2"
+    output_folder_1 = "output_frames_1"
+    output_folder_2 = "output_frames_2"
     # Specify the desired frames per second for output
     target_fps = 1
 

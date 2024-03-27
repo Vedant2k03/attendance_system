@@ -14,6 +14,7 @@ def classroom(room):
 @app.route('/start', methods=['POST', 'GET'])
 def start():
     os.system("python cctv_capture2.py")
+    os.system("python frame.py")
     return render_template('index.html')
 
 if __name__ == '__main__':

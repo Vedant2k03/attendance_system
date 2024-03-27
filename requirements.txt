@@ -1,0 +1,6 @@
+flask
+opencv-python
+retina-face
+deepface
+pandas
+xlwings
